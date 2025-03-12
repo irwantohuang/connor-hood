@@ -2,6 +2,7 @@
 import { useFormStore } from '@/stores/formStores';
 import { onMounted, ref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
+// @ts-ignore
 import { VueSignaturePad } from 'vue-signature-pad';
 
 const basePath = 'form_page.step_content.form_approval.signature'
