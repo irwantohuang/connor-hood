@@ -1,0 +1,185 @@
+{
+    "form_page": {
+        "header": {},
+        "step": {
+            "introduction": "Pendahuluan",
+            "chapter_1": "Pasal 1",
+            "chapter_2": "Pasal 2",
+            "chapter_3": "Pasal 3",
+            "chapter_4": "Pasal 4",
+            "chapter_5": "Pasal 5",
+            "chapter_6": "Pasal 6",
+            "chapter_7": "Pasal 7",
+            "form_approval": "Form Persetujuan"
+        },
+        "step_content": {
+            "introduction": {
+                "title": "Perjanjian Vendor",
+                "subtitle": "Pada hari ini, [tanggal penandatanganan], telah terjadi kesepakatan antara:",
+                "party_first": "(selanjutnya disebut \"Pihak Pertama\"), berkedudukan di [alamat kantor], dan",
+                "party_second": "(selanjutnya disebut \"Pihak Kedua\"), yang diwakili oleh [Nama PIC], berkedudukan di [alamat vendor]",
+                "collective_parties": "secara bersama-sama selanjutnya disebut \"Para Pihak\".",
+                "aggreement_statement": "dengan ini sepakat untuk mengikatkan diri dalam Perjanjian Vendor (\"Perjanjian\") sebagai berikut:"
+            },
+            "chapter_1": {
+                "title": "Pasal 1",
+                "subtitle": "Ruang Lingkup Kerja",
+                "content": [
+                    "Pihak Kedua setuju untuk menyediakan jasa/layanan/produk sebagai kontraktor bagi Pihak Pertama.",
+                    "Pihak Kedua bertanggung jawab untuk menyerahkan hasil kerja atau produk sesuai dengan ketentuan yang telah ditentukan oleh Pihak Pertama."
+                ]
+            },
+            "chapter_2": {
+                "title": "Pasal 2",
+                "subtitle": "Ketentuan Pajak",
+                "content": [
+                    "Setiap faktur/invoice yang diajukan oleh Pihak Kedua, jika Pihak Kedua adalah perorangan (individu), maka akan dikenakan pemotongan pajak PPh Pasal 21.",
+                    "Jika Pihak Kedua berbentuk badan usaha/perusahaan, maka akan dikenakan pemotongan pajak PPh Pasal 23.",
+                    "Pihak Pertama akan menerbitkan bukti potong (bukti pemotongan pajak) dan mengirimkannya kepada Pihak Kedua dalam jangka waktu 7 (tujuh) hari kerja setelah pembayaran dilakukan."
+                ]
+            },
+            "chapter_3": {
+                "title": "Pasal 3",
+                "subtitle": "Jadwal Pembayaran",
+                "content": [
+                    "Pihak Pertama akan melakukan pembayaran kepada Pihak Kedua pada tanggal 5 (lima) dan 20 (dua puluh) setiap bulannya.",
+                    "Apabila tanggal 5 (lima) atau 20 (dua puluh) bertepatan dengan hari libur nasional atau akhir pekan, maka pembayaran akan diproses pada hari kerja berikutnya.",
+                    "Pembayaran lebih awal (di luar jadwal) dapat dipertimbangkan secara case by case dan memerlukan persetujuan Manajemen Pihak Pertama."
+                ]
+            },
+            "chapter_4": {
+                "title": "Pasal 4",
+                "subtitle": "Anti-Kickback dan Anti-Fraud",
+                "content": [
+                    "Pihak Kedua sepakat untuk tidak memberikan imbalan, hadiah, atau bentuk kompensasi lain secara langsung maupun tidak langsung kepada karyawan atau perwakilan Pihak Pertama.",
+                    "Jika terdapat bukti bahwa Pihak Kedua telah memberikan kickback atau terlibat dalam tindakan penipuan (fraud) apa pun, Pihak Pertama berhak menempuh jalur hukum di pengadilan di Indonesia.",
+                    "Pihak Pertama memiliki program reward untuk mencegah kecurangan, di mana jika Pihak Kedua mengetahui adanya permintaan kickback atau praktik kecurangan oleh karyawan Pihak Pertama, dan dapat memberikan bukti yang cukup, maka Pihak Pertama akan memberikan reward sebesar Rp 10.000.000 (sepuluh juta Rupiah) kepada pelapor."
+                ]
+            },
+            "chapter_5": {
+                "title": "Pasal 5",
+                "subtitle": "Data Pihak Kedua",
+                "content": {
+                    "description": "Pihak Kedua wajib melampirkan dan/atau mencantumkan data berikut:",
+                    "fields": [
+                        "Nama Lengkap (sesuai KTP)",
+                        "Nomor KTP",
+                        "Nomor NPWP",
+                        "Nama Perusahaan (Jika berbentuk badan usaha)",
+                        "Nama PIC / Penanggung Jawab",
+                        "Nomor Telepon",
+                        "Alamat Email (opsional)"
+                    ],
+                    "bank_account": {
+                        "title": "Data Rekening Bank",
+                        "fields": [
+                            "Nama Bank",
+                            "Nomor Rekening",
+                            "Nama Pemilik Rekening"
+                        ]
+                    }
+                }
+            },
+            "chapter_6": {
+                "title": "Pasal 6",
+                "subtitle": "Hukum yang Berlaku dan Penyelesaian Sengketa",
+                "content": [
+                    "Perjanjian ini diatur oleh dan ditafsirkan sesuai dengan hukum yang berlaku di Republik Indonesia.",
+                    "Jika terjadi perselisihan atau sengketa sehubungan dengan Perjanjian ini, Para Pihak setuju untuk menyelesaikannya secara musyawarah untuk mufakat.",
+                    "Apabila musyawarah tidak mencapai kesepakatan, maka sengketa akan diselesaikan melalui jalur hukum di pengadilan yang berwenang di Indonesia."
+                ]
+            },
+            "chapter_7": {
+                "title": "Pasal 7",
+                "subtitle": "Penutup",
+                "content": {
+                    "fields": [
+                        "Perjanjian ini mulai berlaku efektif sejak tanggal ditandatangani oleh Para Pihak dan akan tetap berlaku sepanjang belum diakhiri oleh salah satu Pihak dengan pemberitahuan tertulis sesuai ketentuan dalam Perjanjian.",
+                        "Dengan menandatangani Perjanjian ini, Pihak Kedua menyatakan telah membaca, memahami, dan menyetujui seluruh isi Perjanjian tanpa ada paksaan dari pihak manapun."
+                    ],
+                    "footer": "Demikian Perjanjian ini dibuat dalam rangkap 2 (dua) yang masing-masing bermaterai cukup dan mempunyai kekuatan hukum yang sama."
+                }
+            },
+            "form_approval": {
+                "personal_information": {
+                    "title": "Informasi Pribadi",
+                    "fields": {
+                        "name": {
+                            "label": "Nama Lengkap (sesuai KTP)",
+                            "placeholder": "Nama Lengkap"
+                        },
+                        "id_card": {
+                            "label": "Nomor Identitas / KTP",
+                            "placeholder": "1234567890"
+                        },
+                        "id_card_photo": {
+                            "label": "Unggah Foto Identitas / KTP",
+                            "placeholder": "Klik untuk mengunggah"
+                        },
+                        "npwp": {
+                            "label": "Nomor NPWP",
+                            "placeholder": "1234567890"
+                        },
+                        "npwp_photo": {
+                            "label": "Unggah Foto NPWP",
+                            "placeholder": "Klik untuk mengunggah"
+                        },
+                        "phone_number": {
+                            "label": "Nomor Whatsapp",
+                            "placeholder": "1234567890"
+                        }
+                    }
+                },
+                "company_information": {
+                    "title": "Informasi Perusahaan",
+                    "fields": {
+                        "company_name": {
+                            "label": "Nama Perusahaan",
+                            "note": "(jika berbentuk badan usaha)",
+                            "placeholder": "Nama Perusahaan"
+                        },
+                        "company_pic": {
+                            "label": "Nama Penanggung Jawab / PIC",
+                            "placeholder": "Nama Penanggung Jawab"
+                        },
+                        "email": {
+                            "label": "Alamat Email",
+                            "note": "(opsional)",
+                            "placeholder": "Alamat email"
+                        }
+                    }
+                },
+                "bank_information": {
+                    "title": "Informasi Rekening Bank",
+                    "fields": {
+                        "bank_name": {
+                            "label": "Nama Bank",
+                            "placeholder": "Pilih Bank"
+                        },
+                        "account_number": {
+                            "label": "Nomor Rekening",
+                            "placeholder": "012345678912",
+                            "message": "Informasi rekening tidak ditemukan, periksa kembali data yang dimasukkan"
+                        },
+                        "account_name": {
+                            "label": "Nama Pemilik Rekening"
+                        }
+                    }
+                },
+                "signature": {
+                    "title": "Tanda tangan kontrak",
+                    "placeholder": "Klik untuk tanda tangan",
+                    "modal": {
+                        "title": "Buat Tanda Tangan",
+                        "cancel": "Clear"
+                    }
+                }
+            },
+            "error_message": "Harap isi semua kolom yang diperlukan."
+        }
+    },
+    "success_page": {
+        "title": "Data berhasil dikirim",
+        "description": "Data sudah diterima, tim kami akan segera meninjaunya. Pantau email Anda untuk mengetahui informasi terbaru, atau jangan ragu untuk menghubungi kami jika Anda memiliki pertanyaan."
+    }
+}

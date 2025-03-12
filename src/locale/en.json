@@ -1,0 +1,185 @@
+{
+    "form_page": {
+        "header": {},
+        "step": {
+            "introduction": "Introduction",
+            "chapter_1": "Chapter 1",
+            "chapter_2": "Chapter 2",
+            "chapter_3": "Chapter 3",
+            "chapter_4": "Chapter 4",
+            "chapter_5": "Chapter 5",
+            "chapter_6": "Chapter 6",
+            "chapter_7": "Chapter 7",
+            "form_approval": "Approval Form"
+        },
+        "step_content": {
+            "introduction": {
+                "title": "Vendor Agreement",
+                "subtitle": "On this day, [signing date], an agreement has been made between:",
+                "party_first": "(hereinafter referred to as \"First Party\"), domiciled at [office address], and",
+                "party_second": "(hereinafter referred to as \"Second Party\"), represented by [PIC Name], domiciled at [vendor address]",
+                "collective_parties": "hereinafter collectively referred to as \"The Parties\".",
+                "aggreement_statement": "hereby agree to bind themselves in the Vendor Agreement (\"Agreement\") as follows:"
+            },
+            "chapter_1": {
+                "title": "Chapter 1",
+                "subtitle": "Scope of Work",
+                "content": [
+                    "The Second Party agrees to provide services/products as a contractor for the First Party.",
+                    "The Second Party is responsible for delivering the work results or products in accordance with the terms set by the First Party."
+                ]
+            },
+            "chapter_2": {
+                "title": "Article 2",
+                "subtitle": "Tax Provisions",
+                "content": [
+                    "Every invoice submitted by the Second Party, if the Second Party is an individual, will be subject to withholding tax under Article 21 of Income Tax.",
+                    "If the Second Party is a business entity/company, it will be subject to withholding tax under Article 23 of Income Tax.",
+                    "The First Party will issue a withholding tax certificate and send it to the Second Party within 7 (seven) working days after payment is made."
+                ]
+            },
+            "chapter_3": {
+                "title": "Article 3",
+                "subtitle": "Payment Schedule",
+                "content": [
+                    "The First Party will make payments to the Second Party on the 5th and 20th of each month.",
+                    "If the 5th or 20th falls on a national holiday or weekend, the payment will be processed on the next working day.",
+                    "Early payment (outside the schedule) may be considered on a case-by-case basis and requires approval from the First Party's Management."
+                ]
+            },
+            "chapter_4": {
+                "title": "Article 4",
+                "subtitle": "Anti-Kickback and Anti-Fraud",
+                "content": [
+                    "The Second Party agrees not to provide any rewards, gifts, or other forms of compensation, directly or indirectly, to employees or representatives of the First Party.",
+                    "If there is evidence that the Second Party has provided a kickback or has been involved in any fraudulent activity, the First Party reserves the right to take legal action in an Indonesian court.",
+                    "The First Party has a reward program to prevent fraud. If the Second Party becomes aware of a kickback request or fraudulent practice by the First Party’s employees and can provide sufficient evidence, the First Party will grant a reward of Rp 10,000,000 (ten million Rupiah) to the whistleblower."
+                ]
+            },
+            "chapter_5": {
+                "title": "Article 5",
+                "subtitle": "Second Party's Data",
+                "content": {
+                    "description": "The Second Party is required to attach and/or provide the following data:",
+                    "fields": [
+                        "Full Name (as per ID card)",
+                        "ID Card Number",
+                        "Tax Identification Number (NPWP)",
+                        "Company Name (if a business entity)",
+                        "PIC / Responsible Person's Name",
+                        "Phone Number",
+                        "Email Address (optional)"
+                    ],
+                    "bank_account": {
+                        "title": "Bank Account Information",
+                        "fields": [
+                            "Bank Name",
+                            "Account Number",
+                            "Account Holder's Name"
+                        ]
+                    }
+                }
+            },
+            "chapter_6": {
+                "title": "Article 6",
+                "subtitle": "Governing Law and Dispute Resolution",
+                "content": [
+                    "This Agreement shall be governed by and interpreted in accordance with the laws of the Republic of Indonesia.",
+                    "In the event of any dispute or conflict arising from this Agreement, the Parties agree to resolve it through deliberation to reach a mutual consensus.",
+                    "If deliberation does not result in an agreement, the dispute shall be resolved through legal proceedings in a competent court in Indonesia."
+                ]
+            },
+            "chapter_7": {
+                "title": "Article 7",
+                "subtitle": "Closing Provisions",
+                "content": {
+                    "fields": [
+                        "This Agreement becomes effective from the date it is signed by the Parties and will remain in effect until terminated by either Party with written notice in accordance with the terms of the Agreement.",
+                        "By signing this Agreement, the Second Party declares that they have read, understood, and agreed to all terms without any coercion from any party."
+                    ],
+                    "footer": "This Agreement is made in two (2) copies, each duly stamped and having equal legal force."
+                }
+            },
+            "form_approval": {
+                "personal_information": {
+                    "title": "Personal Information",
+                    "fields": {
+                        "name": {
+                            "label": "Full Name (as per ID card)",
+                            "placeholder": "Full Name"
+                        },
+                        "id_card": {
+                            "label": "Identity Number / ID Card",
+                            "placeholder": "1234567890"
+                        },
+                        "id_card_photo": {
+                            "label": "Upload Identity Card Photo / ID Card",
+                            "placeholder": "Click to upload"
+                        },
+                        "npwp": {
+                            "label": "Tax Identification Number (NPWP)",
+                            "placeholder": "1234567890"
+                        },
+                        "npwp_photo": {
+                            "label": "Upload NPWP Photo",
+                            "placeholder": "Click to upload"
+                        },
+                        "phone_number": {
+                            "label": "WhatsApp Number",
+                            "placeholder": "1234567890"
+                        }
+                    }
+                },
+                "company_information": {
+                    "title": "Company Information",
+                    "fields": {
+                        "company_name": {
+                            "label": "Company Name",
+                            "note": "(if registered as a business entity)",
+                            "placeholder": "Company Name"
+                        },
+                        "company_pic": {
+                            "label": "Responsible Person / PIC Name",
+                            "placeholder": "Responsible Person Name"
+                        },
+                        "email": {
+                            "label": "Email Address",
+                            "note": "(optional)",
+                            "placeholder": "Email Address"
+                        }
+                    }
+                },
+                "bank_information": {
+                    "title": "Bank Account Information",
+                    "fields": {
+                        "bank_name": {
+                            "label": "Bank Name",
+                            "placeholder": "Select Bank"
+                        },
+                        "account_number": {
+                            "label": "Account Number",
+                            "placeholder": "012345678912",
+                            "message": "Bank account information not found, please check the entered data"
+                        },
+                        "account_name": {
+                            "label": "Account Holder Name"
+                        }
+                    }
+                },
+                "signature": {
+                    "title": "Contract Signature",
+                    "placeholder": "Click to sign",
+                    "modal": {
+                        "title": "Create Signature",
+                        "cancel": "Clear"
+                    }
+                }
+            },
+            "error_message": "Please fill in all required fields."
+        }
+    },
+    "success_page": {
+        "title": "Data Successfully Submitted",
+        "description": "Your data has been received, and our team will review it shortly. Keep an eye on your email for updates, or feel free to contact us if you have any questions."
+    }
+}
