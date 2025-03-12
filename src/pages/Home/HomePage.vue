@@ -18,7 +18,7 @@ import { useRouter } from 'vue-router';
 
 const currentStep = ref("#step-1");
 const { validateForm, errorMessage} = useFormStore();
-const { t } = useI18n();
+const { t, locale } = useI18n();
 const isLoading = ref(false);
 const formStore = useFormStore()
 const router = useRouter();
@@ -107,14 +107,14 @@ const onSubmit = async () => {
                     v-if="currentStep !== '#step-1'"
                     class="md:order-1 order-2 rounded bg-white border border-[#B2B2B2] text-[#080808] py-3 px-6 text-center w-full font-semibold cursor-pointer"
                 >
-                    Sebelumnya
+                    {{ locale === 'en' ? 'Back' : 'Sebelumnya' }}
                 </button>
                 <button
                     @click.prevent="handleClickStep('next')"
                     v-if="currentStep !== '#step-9'"
                     class="md:order-2 order-1 rounded bg-[#0433FF] border border-[#0433FF] text-white py-3 px-6 text-center w-full font-semibold cursor-pointer"
                 >
-                    Selanjutnya
+                    {{ locale === 'en' ? 'Next' : 'Selanjutnya' }}
                 </button>
                 <button
                     @click.prevent="onSubmit"
