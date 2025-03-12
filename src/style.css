@@ -10,3 +10,13 @@
         @apply bg-[#F8F8F8] min-h-screen flex flex-col justify-between font-inter
     }
 }
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
